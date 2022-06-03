@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Posts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
